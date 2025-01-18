@@ -4,10 +4,10 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-
+//Singleton Pattern
 public class TestBase {
 	
-	private static TestBase testBase;
+	private static TestBase testBase;//creating a private static instance of class
 	private static WebDriver driver;
 	
 	private TestBase() {
